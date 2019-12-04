@@ -13,18 +13,33 @@ public class Rato {
 
     private String tipo;
 
+    /**
+     * builder with params
+     * @param tipo
+     */
     public Rato(String tipo) {
         this.tipo = tipo;
     }
 
+    /**
+     * getter of tipo
+     * @return
+     */
     public String getTipo() {
         return tipo;
     }
 
+    /**
+     * setter of tipo
+     * @param tipo
+     */
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
 
+    /**
+     * builder without params
+     */
     public Rato() {
     }
 }
